@@ -4,18 +4,20 @@
 /* general text formatting */
 
 h1, h2, h3, nav, footer {
- font-family: 'Merriweather', serif; 
+ font-family: 'Merriweather', serif;
 }
 body {
    font-family: 'Open Sans', Arial, sans-serif;
    font-size: 16px;
 }
-
-
+form {
+  margin: 60px;
+}
 legend {
    background-color: #616161 ;
    color: white;
-
+   text-align: center;
+   font-size: 24px;
 }
 fieldset {
    margin: 1em auto;
@@ -27,22 +29,46 @@ div#searchBox, div#settingsBox, div#paintingBox {
    margin: 0.25em auto;
    background-color: #E0E0E0;
    border: 1pt solid #616161;
-
+   padding: 1em;
 }
 div#searchBox { margin-top: 1em; }
-div#artistBox { 
+div#artistBox {
    background-color: #EEEEEE;
-    
-}
 
+}
+table {
+    border: none;
+}
 
 table thead {
    background-color: #E0E0E0 ;
-    
+   font-weight: bold;
 }
 
 caption {
    background-color: #BDBDBD;
-
+   text-align: center;
+   font-weight: bold;
+   padding: 1em;
+   font-size: 18px;
 }
-
+th {
+  text-align: left;
+}
+th:first-of-type {
+  text-align: center;
+}
+tbody {
+  background-color: ;
+}
+tbody tr {
+  border-bottom: 1px solid gray;
+}
+tbody td {
+  padding-bottom: .4em;
+  padding-right: 1em;
+}
+tbody tr:hover {
+  background-color: #616161;
+  color: white;
+}
