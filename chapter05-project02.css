@@ -2,7 +2,6 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 
 /* general text formatting */
-
 h1, h2, h3, nav, footer {
  font-family: 'Merriweather', serif;
 }
