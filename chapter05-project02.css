@@ -10,18 +10,20 @@ body {
    font-size: 16px;
 }
 form {
-  margin: 60px;
+  margin: 15px;
 }
 legend {
-   background-color: #616161 ;
+   background-color: #616161;
    color: white;
    text-align: center;
    font-size: 24px;
+   width: 95%;
 }
 fieldset {
    margin: 1em auto;
    background-color: #F5F5F5;
-
+   padding-left: 2em;
+   padding-right: 2em;
 }
 
 div#searchBox, div#settingsBox, div#paintingBox {
@@ -30,20 +32,21 @@ div#searchBox, div#settingsBox, div#paintingBox {
    border: 1pt solid #616161;
    padding: 1em;
 }
-div#searchBox { margin-top: 1em; }
+div#searchBox {
+  margin-top: 1em;
+}
 div#artistBox {
-   background-color: #EEEEEE;
-
+}
+div#paintingBox {
+  background-color: #F5F5F5;
 }
 table {
     border: none;
 }
-
 table thead {
    background-color: #E0E0E0 ;
    font-weight: bold;
 }
-
 caption {
    background-color: #BDBDBD;
    text-align: center;
@@ -57,17 +60,14 @@ th {
 th:first-of-type {
   text-align: center;
 }
-tbody {
-  background-color: ;
-}
-tbody tr {
-  border-bottom: 1px solid gray;
+thead {
+  border: 1pt solid red;
 }
 tbody td {
   padding-bottom: .4em;
   padding-right: 1em;
 }
 tbody tr:hover {
-  background-color: #616161;
+  background-color: #BDBDBD;
   color: white;
 }
